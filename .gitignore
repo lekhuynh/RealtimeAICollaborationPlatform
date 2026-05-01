@@ -1,0 +1,11 @@
+# Môi trường ảo (BẮT BUỘC)
+venv/
+.venv/
+env/
+
+# Python rác
+__pycache__/
+*.py[cod]
+
+# Biến môi trường (Mật khẩu, API Key)
+.env
