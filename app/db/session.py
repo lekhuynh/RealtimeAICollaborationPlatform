@@ -30,5 +30,5 @@ async def get_db() -> AsyncSession:
         try:
             yield session
         except Exception:
-            await session.rollback
+            await session.rollback()
             raise
